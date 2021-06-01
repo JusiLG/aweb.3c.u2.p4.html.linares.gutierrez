@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica HTML 4</title>
+</head>
+<style>
+    body {
+        background-color: #F0F0F0;
+    }
+    header {
+        text-align: center;
+    }
+    .menu {
+        width: 20%;
+        float: left;
+        background-color: #E0EEB9;
+    }
+    .menu ul {
+        list-style: none;
+    }
+    .menu il li {
+        padding: 5px;
+    }
+    .menu ul a:link,
+    .menu ul a:visited,
+    .menu ul a:active{
+        text-decoration: none;
+        color: #000;
+    }
+    .menu ul li:hover{
+        background-color: #C8E386;
+        font-weight: bold;
+    }
+    #content{
+        width: 80%;
+        float: left;
+    }
+    #content article{
+        margin: 10px;
+    }
+    article h1{
+        color: #75AD24;
+    }
+    article{
+        color: #75AD24
+        border-bottom: #000 SOLID 1px;
+    }
+</style>
+<body>
+    <main>
+        <header style="text-align: center;">
+            <h1>Práctica HTML 5</h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Tipo agua</a></li>
+                <li><a href="#">Tipo planta</a></li>
+                <li><a href="#">Tipo fuego</a></li>
+            </ul>
+        </nav>
+        <section id="content">
+            <article>
+                <h1>Artículo 1</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro adipisci reiciendis dolorem quia. Nihil cupiditate assumenda necessitatibus, repellat culpa repudiandae ex perferendis iste a impedit nisi rem autem, similique odio.</p>
+                <ul>
+                    <li>Item1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                </ul>
+            </article>
+            <article>
+                <h1>Artículo 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, vel fugit incidunt omnis, expedita quidem culpa sed quo asperiores nihil numquam facilis voluptas nemo eius commodi quisquam nam aliquam! Laboriosam.</p>
+            </article>
+        </section>
+        <footer>Pie de página</footer>
+    </main>
+</body>
+</html>
